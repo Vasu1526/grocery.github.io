@@ -350,10 +350,10 @@ section{
   padding: 1rem 0;
 }
 
-/* .features{
+.features{
   margin-top: 8rem;
 }
- */
+
 .features .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
@@ -393,10 +393,10 @@ section{
   color: var(--light);
 }
 
-/* .product{
+.product{
   margin-top: 8rem;
 }
- */
+
 .product .product-slider{
   padding: 1rem;
   
@@ -541,10 +541,10 @@ section{
   /* margin-bottom: 1.5rem; */
 }
 
-/* .blog{
+.blog{
   margin-top: 8rem;
 }
- */
+
 .blog .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
@@ -613,7 +613,7 @@ section{
 }
 
 .aboutus{
-  /* margin-top: 8rem; */
+  margin-top: 8rem;
   padding-inline: 20rem;
 }
 

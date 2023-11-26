@@ -10,6 +10,9 @@
     section{
         padding: 2rem;
     }
+    .aboutus{
+      padding-inline: 20rem;
+    }
 }
 @media(max-width: 768px)
 {
@@ -33,6 +36,10 @@
     .header .search-form{
         width: 90%;
     }
+    .aboutus{
+      margin-top: 8rem;
+      padding-inline: 8rem;
+    }
 }
 
 @media(max-width: 450px)
@@ -46,21 +53,15 @@
       .features{
         margin-top: 8rem;
       }
-      
-      
       .product{
         margin-top: 8rem;
       }
-      
-      
       .blog{
         margin-top: 8rem;
       }
-      
-      
       .aboutus{
         margin-top: 8rem;
-        /* padding-inline: 20rem; */
+        padding-inline: 3rem;
       }
       
 }
