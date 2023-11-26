@@ -40,6 +40,11 @@
       margin-top: 8rem;
       padding-inline: 8rem;
     }
+    .review .review-slider{
+      /* padding:0 1rem; */
+      width: 100%;
+      margin: auto;
+    }
 }
 
 @media(max-width: 450px)
@@ -63,5 +68,4 @@
         margin-top: 8rem;
         padding-inline: 3rem;
       }
-      
 }
