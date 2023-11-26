@@ -350,6 +350,10 @@ section{
   padding: 1rem 0;
 }
 
+.features{
+  margin-top: 8rem;
+}
+
 .features .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
@@ -383,10 +387,14 @@ section{
 }
 .features .box-container .box p{
   font-size: 1.2rem;
-  padding: 1rem 0;
+  padding: 1rem 3rem;
   padding-bottom: 2rem;
   line-height: 1.8;
   color: var(--light);
+}
+
+.product{
+  margin-top: 8rem;
 }
 
 .product .product-slider{
@@ -533,6 +541,10 @@ section{
   /* margin-bottom: 1.5rem; */
 }
 
+.blog{
+  margin-top: 8rem;
+}
+
 .blog .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
@@ -589,11 +601,51 @@ section{
   padding: .5rem 0;
 }
 
+.blog .box-container .box .content h3:hover{
+  color: var(--green);
+}
+
 .blog .box-container .box .content p{
   line-height: 1.8;
   color: var(--light);
   font-size: 1.5rem;
   padding-bottom: 1.3rem;
+}
+
+.aboutus{
+  margin-top: 8rem;
+  padding-inline: 20rem;
+}
+
+.aboutus h2{
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+  color: var(--black);
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.aboutus h3{
+  font-size: 2.2rem;
+  margin-block: 1.5rem;
+  color: var(--black);
+}
+
+.aboutus .last{
+  font-size: 1.7rem;
+  /* color: var(--black); */
+  margin-top: 2rem;
+  font-weight: 400;
+  text-indent: 0 !important;
+}
+
+.aboutus p{
+  line-height: 1.8;
+  font-size: 1.7rem;
+  text-indent: 7rem;
+  text-align: justify;
+  font-weight: 400;
 }
 
 .footer{
@@ -691,18 +743,6 @@ section{
 .footer .credit span{
   color: var(--green);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer .box-container .box .nav-links{
   margin-left: .5rem;
