@@ -612,10 +612,10 @@ section{
   padding-bottom: 1.3rem;
 }
 
-/* .aboutus{
-  margin-top: 8rem;
+.aboutus{
+  /* margin-top: 8rem; */
   padding-inline: 20rem;
-} */
+}
 
 .aboutus h2{
   text-align: center;
