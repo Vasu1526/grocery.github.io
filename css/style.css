@@ -27,6 +27,23 @@ body {
   background-color: #eee;
 }
 
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #6d6d6d; 
+}
+
 section{
   padding: 2rem 9%;
 }
@@ -650,6 +667,7 @@ section{
 
 .footer{
   background-color: #fff;
+  margin-top: 50px;
 }
 
 .footer .box-container{
@@ -759,9 +777,3 @@ section{
 .footer .box-container .box .nav-links a:hover::before{
   margin-right: 1.6rem;
 }
-
-
-
-
-
-
